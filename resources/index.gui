@@ -1,0 +1,28 @@
+<svg>
+  
+<use id="background" href="#static-image" x="0" y="8" height="84%" width="100%"><set href="image" attributeName="href" to="./resources/night.png"/></use>
+
+<svg class ="screen1">
+  <text id="charge-data" class="sensor-label"   x="190"   y="10%">{ ... }</text>
+  <text id="battery-data" class="sensor-data"     x="260"   y="10%">{ ... }</text>  
+  <use id="etank-image" href="#static-image" x="0" y="250" height="50" width="50"><set href="image" attributeName="href" to="./resources/etank.png"/></use>
+  <use id="megaman-image" href="#static-image" x="60" y="240" height="64" width="64"><set href="image" attributeName="href" to="./resources/mega.png" /></use>
+  <use id="1up-image" href="#static-image" x="0" y="0" height="36" width="36"><set href="image" attributeName="href" to="./resources/1up.png"/></use>
+  <text id="hrm-data" class="sensor-data"     x="58"   y="10%">{ ... }</text>
+  <text id="clock-data1" class="clock-data1"     x="50%"   y="30%">{ ... }</text>
+  <text id="clock-data2" class="clock-data2"     x="50%"   y="60%">{ ... }</text>
+  <text id="step-data" class="sensor-data"     x="220"   y="98%">{ ... }</text>
+  </svg>
+  
+  <!-- Commented out because trying to save battery life
+<svg class ="screen2">
+  <text id="bar-label" class="sensor-label"   x="35"   y="53%">{ ... }</text>
+  <text id="bar-data" class="sensor-data"     x="200"   y="53%">{ ... }</text>
+  <text id="accel-label" class="sensor-label" x="50%"   y="62%">{ ... }</text>
+  <text id="accel-data" class="sensor-data"   x="50%"   y="71%">{ ... }</text>
+  <text id="orient-label" class="sensor-label"   x="50%"   y="80%">{ ... }</text>
+  <text id="orient-data1" class="sensor-data"     x="50%"   y="89%">{ ... }</text>
+  <text id="orient-data2" class="sensor-data"     x="50%"   y="98%">{ ... }</text>
+  </svg>
+    -->
+</svg>

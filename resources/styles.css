@@ -1,0 +1,37 @@
+.defaultText {
+  font-size: 32;
+  font-family: System-Bold;
+  font-weight: regular;
+  text-length: 32;
+}
+
+.clock-data1 {
+  font-size: 56;
+  font-family: Fabrikat-Black;
+  fill: #CCE6FF;
+  text-anchor: middle;
+  text-length: 33;
+}
+ 
+.clock-data2 {
+  font-size: 80;
+  font-family: Fabrikat-Black;
+  fill: #CCE6FF;
+  text-anchor: middle;
+  text-length: 33;
+}
+
+.sensor-label {
+  font-family: Fabrikat-Black;
+  fill: #CCE6FF;
+  text-anchor: middle;
+  text-length: 33;
+}
+
+.sensor-data {
+  font-family: Fabrikat-Black;
+  fill: #CCE6FF;
+  text-anchor: middle;
+  text-length: 33;
+}
+

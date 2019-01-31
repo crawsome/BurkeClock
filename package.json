@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "05091a8e-332c-4222-bc07-df44032f8097",
+    "appType": "app",
+    "appDisplayName": "Burke Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#00bcd4",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate",
+      "access_location",
+      "access_internet",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Burke Clock"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}
